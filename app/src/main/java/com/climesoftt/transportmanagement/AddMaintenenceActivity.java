@@ -46,7 +46,7 @@ public class AddMaintenenceActivity extends AppCompatActivity {
         startDate = (Button) findViewById(R.id.btnStartDate);
         endDate = (Button) findViewById(R.id.btnEndDate);
         et_desc = findViewById(R.id.etDescription);
-        et_desc.setFocusable(false);
+        
         setStartDateDialog();
         setEndDateDialog();
     }

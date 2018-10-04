@@ -37,7 +37,7 @@ public class EditMaintenenceActivity extends AppCompatActivity {
         btStartDate = (Button) findViewById(R.id.btnStartDate);
         btEndDate = (Button) findViewById(R.id.btnEndDate);
         et_description = findViewById(R.id.etDescription);
-        et_description.setFocusable(false);
+
 
         Intent intent = getIntent();
         mId = intent.getStringExtra("MID");
